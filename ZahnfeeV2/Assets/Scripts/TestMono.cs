@@ -1,10 +1,7 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class TestMono : MonoBehaviour
 {
-
     string myName = "elisabeth";
 
     // Use this for initialization
