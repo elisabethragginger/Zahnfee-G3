@@ -1,20 +1,25 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class SceneSwitcher : MonoBehaviour
 {
-
-    public void SceneSwitch()
+    public void SceneSwitch ()
     {
         SceneManager.LoadScene(1);
-        Debug.Log("Angeklickt");
     }
 
-    public void SceneSwitch2()
+    public void SceneSwitch2 ()
     {
         SceneManager.LoadScene(2);
-        Debug.Log("Angeklickt");
     }
 }
+
+//enum Scenes { Start, Main, End };
+//public void LoadStartScene ()
+//{
+//    SceneManager.LoadScene((int)Scenes.Start);
+//}
+//public void LoadMainScene()
+//{
+//    SceneManager.LoadScene((int)Scenes.Main)
+//}
