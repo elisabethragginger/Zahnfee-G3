@@ -11,9 +11,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 426f83057091a16478fdd9348e401f6f, type: 3}
   m_Name: Quest2
   m_EditorClassIdentifier: 
-  question: 
+  question: "Welche Folder/Files in einem Unity-Projekt mu\u0308ssen versioniert werden,
+    damit es lauffa\u0308hig ist?"
   answers:
-  - 
-  - 
-  - 
-  - 
+  - "\u201EProject Settings\u201C und \u201EAssets\u201C"
+  - "\u201EProjectMeals\u201C und \u201EAssignments\u201C"
+  - "\u201EOggy\u201C und \u201Edie Kakerlaken\u201C"
+  - "\u201ETom\u201C und \u201EJerry\u201C"
