@@ -13,4 +13,9 @@ public class SceneSwitcher : MonoBehaviour
     {
         SceneManager.LoadScene(2);
     }
+
+    public void SceneSwitch3()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    }
 }
