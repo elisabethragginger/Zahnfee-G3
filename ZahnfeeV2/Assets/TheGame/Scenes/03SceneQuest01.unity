@@ -504,6 +504,62 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 745101288}
   m_CullTransparentMesh: 0
+--- !u!1 &749763432
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 749763434}
+  - component: {fileID: 749763433}
+  m_Layer: 0
+  m_Name: QuestionRandomizer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &749763433
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 749763432}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67f4c3b5a3de42e4f80f546843120e00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myQuestionList:
+  - {fileID: 11400000, guid: 91f2976d31ce7f7429909a61feb58134, type: 2}
+  - {fileID: 11400000, guid: a09e4a65e308d6244949b3741a6241c5, type: 2}
+  - {fileID: 11400000, guid: 2bb2b505063294dc4bac9a909b2acd68, type: 2}
+  - {fileID: 11400000, guid: 02b21a1305a534737b7e53bd3383d7ab, type: 2}
+  - {fileID: 11400000, guid: 61c6abe5506dd4f0bbd76f8bc48b1bab, type: 2}
+  - {fileID: 11400000, guid: ea854ceff9e094b518d7db54395d0fa0, type: 2}
+  - {fileID: 11400000, guid: 24c214382f42142e3a0486211e2daac5, type: 2}
+  - {fileID: 11400000, guid: 1dd824e0ae512437fb793f0ea1aa93b3, type: 2}
+  - {fileID: 11400000, guid: c71a7ed79ca0a4587a6702f846958c7a, type: 2}
+  - {fileID: 11400000, guid: dd247a8c9554643ea8cb60cd4ae974d1, type: 2}
+  question: {fileID: 1277261907}
+  answerLT: {fileID: 891513651}
+  answerLB: {fileID: 745101290}
+  answerRT: {fileID: 1276121691}
+  answerRB: {fileID: 764526157}
+--- !u!4 &749763434
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 749763432}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &764526155
 GameObject:
   m_ObjectHideFlags: 0
